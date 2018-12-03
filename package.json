@@ -49,12 +49,10 @@
     "typescript": "^2.6.2"
   },
   "files": [
-    "es",
     "lib"
   ],
   "author": "Kevin Rocker",
   "license": "MIT",
   "types": "./lib/index.d.ts",
-  "jsnext:main": "./es/index.js",
-  "module": "./es/index.js"
+  "module": "./lib/index.js"
 }
